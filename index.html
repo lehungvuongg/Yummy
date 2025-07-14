@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+
+    <style>
+        @media screen and (max-width: 768px) {
+            .hight {
+                margin-top: 100px;
+                height: 800px;
+            }
+        }
+    </style>
+</head>
+    
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-4 position-fixed w-100 top-0">
+        <div class="container">
+            <a class="navbar-brand fs-1 fw-bold " href="#">Yummy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto text-secondary fs-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Event</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Chefs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Mua Đồ Ăn</a></li>
+                            <li><a class="dropdown-item" href="#">Xem Nhà</a></li>
+                            <li><a class="dropdown-item" href="#">Xem Phương Tiện</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="" class="text-decoration-none text-white bg-danger p-2 rounded-pill d-none d-md-block">Book A
+                Table</a>
+
+        </div>
+    </nav>
+    <!-- banner  -->
+    <div class="hight banner bg-secondary d-flex align-items-center mt-md-0 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center d-flex align-items-center flex-column my-auto">
+                    <h2 class="title">
+                        Enjoy Your Healthy
+                        Delicious Food
+                    </h2>
+                    <p class="">We are team of talented designers making websites with Bootstrap</p>
+                    <div class="">
+                        <a href=""
+                            class="text-decoration-none text-white bg-danger p-2 rounded-pill d-inline-flex me-3">Book A
+                            Table</a>
+                        <span class="p-2 border border-3 rounded-pill "> <i  class=" me-2 fa-solid fa-play"></i> Watch
+                            Video</span>
+                    </div>
+
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <img src="./img/hero-img.png" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  about -->
+    <div class="about py-4">
+        <div class="container">
+            <div class="about-us">
+                <h1 class="text-center text-secondary fw-light">Learn More <span class="text-warning fw-bold">About
+                        Us</span></h1>
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <img src="./img/about.jpg" alt="" width="100%">
+
+                        <div class="order text-center border border-dark rounded-3 mt-4">
+                            <h6 class="text-dark">Book a Table</h6>
+                            <p>+0973 2*4 3**</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <p class="text-secondary small " style="max-width: 500px;">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua.</p>
+                        <p class="fs-5 ">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                            sint occaecat cupidatat non proident</p>
+                        <img src="./img/about-2.jpg" alt="" width="100%" height="auto">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row my-5 d-sm-none d-md-block d-none">
+                <div class="d-flex align-items-center text-center">
+                    <div class="col-md-4 bg-danger p-3">
+                        <h4 class="">Why Choose Yummy</h4>
+                        <p class="mt-2 text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed
+                            et.
+                            Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
+                        <p>Learn More <i class="fa-solid fa-arrow-right"></i> </p>
+                    </div>
+                    <div class="col-md-2 p-3">
+                        <i class="fa-solid fa-clipboard"></i>
+                        <p class="mt-2">Corporis voluptates officia eiusmod</p>
+                        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                    </div>
+                    <div class="col-md-2 p-3">
+                        <i class="fa-solid fa-gem"></i>
+                        <p class="mt-2">Ullamco laboris ladore lore pan</p>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+
+                    </div>
+                    <div class="col-md-4 bg-danger p-3">
+                        <i class="fa-solid fa-inbox"></i>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed
+                            et.
+                            Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
+                        <p>Learn More <i class="fa-solid fa-arrow-right"></i> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- seciton -->
+    <div class="section position-relative">
+        <img src="./img/stats-bg.jpg" alt="" height="400px" width="100%" class=" " style="object-fit: cover;">
+        <div class="container "
+            style="text-align: center; top: 50%; right: 50%; transform: translate(50%); position: absolute;">
+            <div class="row ">
+                <div class="col-3">
+                    <p class="fw-bold fs-1 text-white">323</p>
+                    <p class="fs-5">Clients</p>
+                </div>
+                <div class="col-3">
+                    <p class="fw-bold fs-1 text-white">512</p>
+                    <p class=" fs-5">Project </p>
+                </div>
+                <div class="col-3">
+                    <p class="fw-bold fs-1 text-white"> 1453</p>
+                    <p class=" fs-5">Hours Of Support</p>
+                </div>
+                <div class="col-3">
+                    <p class="fw-bold fs-1 text-white">32
+                    </p class=" fs-5">
+                    <p class=" fs-5">Workers</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- menu -->
+    <div class="menu mt-4 ">
+        <div class="container">
+            <div class="order">
+                <h1 class="text-center text-secondary fw-light">Check Our <span class="text-warning fw-bold">Yummy
+                        Menu</span></h1>
+                <ul class="d-flex justify-content-center  list-unstyled my-4">
+                    <li>
+                        <a href="#"
+                            class="text-decoration-none  text-dark p-3 border-bottom border-dark mx-2 active">Starts</a>
+                    </li>
+                    <li>
+                        <a href=""
+                            class="text-decoration-none text-dark p-3 border-bottom border-dark mx-2">Breakfast</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-decoration-none text-dark p-3 border-bottom border-dark mx-2">Lunch</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-decoration-none text-dark p-3 border-bottom border-dark mx-2">Dinner</a>
+                    </li>
+                </ul>
+
+                <div class="row mt-5">
+                    <div class="col-md-4 text-center">
+                        <img src="./img/menu-item-1.webp" alt="" width="70%">
+                        <h6 class="my-2 text-dark fs-5 fw-bold">Magnam Tiste</h6>
+                        <p class="text-danger fs-5">$5.95</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="./img/menu-item-2.webp" alt="" width="70%">
+                        <h6 class="my-2 text-dark fs-5 fw-bold">Aut Luia</h6>
+                        <p class="text-danger fs-5">$14.95</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="./img/menu-item-3.webp" alt="" width="70%">
+                        <h6 class="my-2 text-dark fs-5 fw-bold">Est Eligendi</h6>
+                        <p class="text-danger fs-5">$8.95</p>
+                    </div>
+                </div>
+            
+                <div class="row mt-5">
+                    <div class="col-md-4 text-center">
+                        <img src="./img/menu-item-4.webp" alt="" width="70%">
+                        <h6 class="my-2 text-dark fs-5 fw-bold">Magnam Tiste</h6>
+                        <p class="text-danger fs-5">$5.95</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="./img/menu-item-5.webp" alt="" width="70%">
+                        <h6 class="my-2 text-dark fs-5 fw-bold">Aut Luia</h6>
+                        <p class="text-danger fs-5">$14.95</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="./img/menu-item-6.webp" alt="" width="70%">
+                        <h6 class="my-2 text-dark fs-5 fw-bold">Est Eligendi</h6>
+                        <p class="text-danger fs-5">$8.95</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- foooter -->
+     <div class="footer bg-dark text-white">
+
+        <div class="container py-5 ">
+            <div class="row">
+                <div class="col-md-3 col-sm-6"> 
+                    <p class="fs-4" > <i class="fa-solid fa-location-pin me-2" ></i> Address</p>
+                    <p>A108 Adam Street</p>
+                    <address>New York, NY 535022</address>
+                </div>
+                <div class="col-md-3 col-sm-6"> 
+                  <p class="fs-4"> <i  class=" me-2 fa-solid fa-phone"></i> Contact</p>
+                  <p>Phone: +1 5589 55488 55</p>
+                  <p>Email: info@example.com</p>
+                </div>
+                <div class="col-md-3 col-sm-6 mt-sm-3"> 
+                  <p class="fs-4"> <i  class=" me-2 fa-solid fa-clock"></i> Opening Hours</p>
+                  <p>Mon-Sat: 11AM - 23PM</p>
+                  <p>Sunday: Closed</p>
+                </div>
+                <div class="col-md-3 col-sm-6 mt-sm-3"> 
+                  <p>Follow Us</p>
+                <ul class="d-flex list-unstyled gap-4 ">
+                    <li class=""><i class="fa-brands fa-facebook border p-2"></i></li>
+                    <li><i class="fa-brands fa-instagram border p-2"></i></li>
+                    <li><i class="fa-brands fa-twitter border p-2"></i></li>
+                    <li><i class="fa-brands fa-yahoo border p-2"></i></li>
+                </ul>
+         
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
